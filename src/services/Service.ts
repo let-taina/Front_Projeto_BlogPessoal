@@ -16,7 +16,7 @@ export const login = async(url: string, dados: Object, setDados: Function) => {
   setDados(resposta.data)
 }
 
-/*export const buscar = async(url: string, setDados: Function, header: Object) => {
+export const buscar = async(url: string, setDados: Function, header: Object) => {
   const resposta = await api.get(url, header)
   setDados(resposta.data)
 }
@@ -33,4 +33,4 @@ export const atualizar = async(url: string, dados: Object, setDados: Function, h
 
 export const deletar = async(url: string, header: Object) => {
   await api.delete(url, header)
-}*/
+}
