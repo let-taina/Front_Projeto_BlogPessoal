@@ -55,10 +55,10 @@ function DeletarPostagem() {
         }
       })
 
-      alert('Postagem apagada com sucesso')
+      toastAlerta('Postagem apagada com sucesso', 'sucesso')
 
     } catch (error) {
-      alert('Erro ao apagar a Postagem')
+      toastAlerta('Erro ao apagar a Postagem', 'erro')
     }
 
     retornar()
